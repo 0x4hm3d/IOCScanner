@@ -25,25 +25,6 @@ The script offers multiple options, which can be viewed by supplying the '-h' fl
  * -l: a path to save the generated excel file. [optional]
  * -a: Use AbuseIPDB only to scan IP addresses. [optional]
  * -v: Use VirusTotal only to scan IP addresses.[optional]
- 
-
-
- _____ _____ _____  _____                                 
-|_   _|  _  /  __ \/  ___|                                
-  | | | | | | /  \/\ `--.  ___ __ _ _ __  _ __   ___ _ __ 
-  | | | | | | |     `--. \/ __/ _` | '_ \| '_ \ / _ \ '__|
- _| |_\ \_/ / \__/\/\__/ / (_| (_| | | | | | | |  __/ |   
- \___/ \___/ \____/\____/ \___\__,_|_| |_|_| |_|\___|_|   
-                                                          
-                                                          
-
-
-
-
-
-Author: Ahmed ElHabashi
-Twitter: @iahmedelhabashy
-Version: 1.0
 
 usage: python3 ThreatScanner.py [-f] IP_File -api API_Key_File | optional -l -a -v
 
