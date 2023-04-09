@@ -540,9 +540,9 @@ if __name__ == '__main__':
 
     # Create the argument parser
     parser = argparse.ArgumentParser(
-        prog="ThreatScanner.py", 
+        prog="IOCScanner.py", 
         description="Accepts: -f or --file for csv, xlsx or txt files only. Additionally, accepts a text file containing API keys.",
-        usage="python3 ThreatScanner.py [-f] IP_File -api API_Key_File | optional -l -a -v  ",
+        usage="python3 IOCScanner.py [-f] IP_File -api API_Key_File | optional -l -a -v  ",
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="IP requirement:\n"
             "  The list of IP addresses can be provided as:\n"
