@@ -6,4 +6,6 @@ pandas
 pycountry
 requests
 XlsxWriter
-
+tqdm
+ipaddress
+python-dateutil
