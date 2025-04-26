@@ -26,11 +26,7 @@ The script offers multiple options, which can be viewed by supplying the '-h' fl
  * -a: Use AbuseIPDB only to scan IP addresses. [optional]
  * -v: Use VirusTotal only to scan IP addresses.[optional]
 
-<<<<<<< HEAD
 usage: python3 ioc_scanner.py [-f] IP_File -api API_Key_File | optional -l -a -v
-=======
-usage: python3 ioc_scanner.py [-f] IP_File -k API_Key_File | optional -l -a -v
->>>>>>> cf289425b8178193e040388a5e4e077d73e37463
 
 Accepts: -f or --file for csv, xlsx or txt files only. Additionally, accepts a text file containing API keys.
 
